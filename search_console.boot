@@ -125,7 +125,7 @@
 
 (defclifn -main
   "Download Search Console data to csv files"
-  [t token    PATH str "path to p12 file (REQUIRED)"
+  [t token    PATH str "path to json file with token (REQUIRED)"
    d date     DATE str "start date, like YYYY-MM-DD (REQUIRED)"
    e end-date DATE str "end date (default: download only the start date)"
    u url      URL  str "base site url (default: https://kasta.ua/)"]
